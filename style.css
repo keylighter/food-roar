@@ -10,7 +10,7 @@ h1{
 .flexible-area{
     display: flex;
     height: 500px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 .half-width{
     width: 35%px;
@@ -27,12 +27,32 @@ h1{
     background-size: cover;
     background-repeat:no-repeat;
 }
+.two-width{
+    width: 35%px;
+    float: right;
+    margin-right: 5%;
+    padding-right: 3%;
+}
+
+
 
 .link-button{
     text-decoration: none;
-    padding: 10px 35px;
+    padding: 10px 30px;
     color: rgba(223, 233, 236, 0.986);
     background-image:linear-gradient( 80deg, rgb(9, 36, 54),rgb(59, 213, 240));
     border-radius: 10px;
     font-weight: 1500px;
+}
+
+.one-word{
+    color: rgb(8, 163, 163);
+}
+
+
+#mid-banner{
+    background-image: url(image/shapes/Frame\ 57.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:right;
 }

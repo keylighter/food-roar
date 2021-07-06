@@ -2,6 +2,7 @@ body{
     font-family: 'Rubik', sans-serif;
     margin:0px
 }
+
 h1{
     font-size: 50px;
 }
@@ -16,6 +17,18 @@ footer h4{
     color: ghostwhite;
 }
 
+.navbar {
+    overflow: hidden;
+    background-color: rgb(15, 92, 168);
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 18px;
+    color: white;
+    padding: 15px 16px;
+    text-decoration:none;
+  }
 
 .flexible-area{
     display: flex;
@@ -36,11 +49,15 @@ footer h4{
     padding-left:20px;
     border-radius: 5px;
     box-shadow: 10px 10px 10px gray;
+    text-align: center;
+}
+.three-box p{
+    padding: 5px;
 }
 
 .three-box img{
     width: 80%; 
-    padding-left: 20px;
+    padding-left: 8px;
     margin-top: 10px;
 }
 

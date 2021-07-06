@@ -17,6 +17,14 @@ footer h4{
     color: ghostwhite;
 }
 
+input{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 4px 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
 .navbar {
     overflow: hidden;
     background-color: rgb(15, 92, 168);
@@ -103,4 +111,8 @@ footer h4{
     margin-right: 30%;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+#contact-flex{
+    display: flex;
+    padding-bottom: 30px;
 }

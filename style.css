@@ -1,5 +1,6 @@
 body{
     font-family: 'Rubik', sans-serif;
+    margin:0px
 }
 h1{
     font-size: 50px;
@@ -9,19 +10,32 @@ h1{
 
 .flexible-area{
     display: flex;
-    height: 500px;
+    height: 450px;
     padding-bottom: 150px;
 }
 .half-width{
-    width: 35%px;
+    width: 35%;
     float: left;
     margin-left: 5%;
     padding-left: 3%;
 }
 
+.three-box{
+    width: 20%;
+    margin-left:5%;
+    margin-right: 5%;
+    padding-left:20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.three-box img{
+    width: 80%; 
+    padding-left: 20px;
+}
+
 .half-width img {
     width: 100%;
-    margin-left: 30px;
     background-image: url(image/shapes/Group\ 8449.png);
     background-position: center;
     background-size: cover;
@@ -55,4 +69,11 @@ h1{
     background-size:cover;
     background-repeat: no-repeat;
     background-position:right;
+}
+#favourit-hp{
+    text-align:center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
